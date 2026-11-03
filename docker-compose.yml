@@ -10,9 +10,9 @@ services:
     image: breedbase/breedbase:latest
 #    depends_on:
 #      - 
-    container_name: breedbase_web
+    container_name: breedbase_web_breedbase_org
     ports:
-      - 8080:8080
+      - 8948:8080
     volumes:
       - webdata:/home/production/volume
       - type: bind
